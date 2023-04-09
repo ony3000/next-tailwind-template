@@ -1,7 +1,9 @@
 {
   "name": "next-tailwind-template",
   "version": "0.1.0",
-  "private": true,
+  "description": "Template repository for personal project.",
+  "author": "Hyeonjong <nianelo4@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
