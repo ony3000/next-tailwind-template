@@ -1,6 +1,6 @@
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
-import classNames from 'classnames';
+import { classNames } from '@/adaptors';
 import { pretendard } from '@/fonts';
 
 export default function App({ Component, pageProps }: AppProps) {
