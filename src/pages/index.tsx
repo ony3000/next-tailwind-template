@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import classNames from 'classnames';
+import { classNames } from '@/adaptors';
 import BoxLink from '@/components/BoxLink';
 
 export default function Home() {
@@ -24,20 +24,19 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div
           className={classNames(
-            'z-[2] w-full max-w-[1100px] font-mono text-[12.8px] [display:inherit] [align-items:inherit] [justify-content:inherit]',
-            'tablet:text-[13.6px]',
+            `z-[2] w-full max-w-[1100px] font-mono text-[12.8px] [display:inherit] [align-items:inherit]
+            [justify-content:inherit] tablet:text-[13.6px]`,
           )}
         >
           <p
             className={classNames(
-              'fixed flex w-full justify-center',
-              'inset-0 bottom-auto m-0 items-center rounded-none border-b border-solid bg-gradient-to-b bg-clip-padding px-4 pt-8 pb-[22.4px] backdrop-blur-xl',
-              'border-zinc-400/25 from-gray-300 to-gray-100/50',
-              'dark:border-neutral-500/25 dark:from-black dark:to-neutral-900/50',
-              'tablet:block tablet:w-auto',
-              'tablet:relative tablet:bottom-0 tablet:rounded-xl tablet:border tablet:bg-none tablet:bg-clip-border tablet:py-4 tablet:backdrop-filter-none',
-              'tablet:border-zinc-400/30 tablet:bg-gray-100/50',
-              'dark:tablet:border-neutral-500/30 dark:tablet:bg-neutral-900/50',
+              `fixed inset-0 bottom-auto m-0 flex w-full items-center justify-center rounded-none border-b
+              border-solid border-zinc-400/25 bg-gradient-to-b from-gray-300 to-gray-100/50 bg-clip-padding
+              px-4 pt-8 pb-[22.4px] backdrop-blur-xl dark:border-neutral-500/25 dark:from-black
+              dark:to-neutral-900/50 tablet:relative tablet:bottom-0 tablet:block tablet:w-auto
+              tablet:rounded-xl tablet:border tablet:border-zinc-400/30 tablet:bg-gray-100/50 tablet:bg-none
+              tablet:bg-clip-border tablet:py-4 tablet:backdrop-filter-none dark:tablet:border-neutral-500/30
+              dark:tablet:bg-neutral-900/50`,
             )}
           >
             Get started by editing&nbsp;
@@ -45,12 +44,10 @@ export default function Home() {
           </p>
           <div
             className={classNames(
-              'fixed flex w-full justify-center',
-              'pointer-events-none inset-0 top-auto z-[1] h-[200px] items-end bg-gradient-to-b from-transparent p-8',
-              'to-[#fff_40%]',
-              'dark:to-[#000_40%]',
-              'tablet:block tablet:w-auto',
-              'tablet:pointer-events-auto tablet:static tablet:z-auto tablet:h-auto tablet:bg-none tablet:p-0',
+              `pointer-events-none fixed inset-0 top-auto z-[1] flex h-[200px] w-full items-end justify-center
+              bg-gradient-to-b from-transparent to-[#fff_40%] p-8 dark:to-[#000_40%]
+              tablet:pointer-events-auto tablet:static tablet:z-auto tablet:block tablet:h-auto tablet:w-auto
+              tablet:bg-none tablet:p-0`,
             )}
           >
             <a
@@ -75,16 +72,15 @@ export default function Home() {
         <div
           data-testid="center-element"
           className={classNames(
-            'relative flex w-max items-center justify-center pt-32 pb-24',
-            'before:absolute before:left-1/2 before:blur-[45px] before:content-[""]',
-            'before:-ml-[400px] before:h-[300px] before:w-[480px] before:transform-none before:rounded-full',
-            'after:absolute after:left-1/2 after:blur-[45px] after:content-[""]',
-            'after:-z-[1] after:h-[180px] after:w-60 after:translate-z-0',
-            'before:bg-radial before:from-white before:to-white/0',
-            'after:bg-conic-from-b after:[--tw-gradient-stops:#38bdf833_0deg,#0ea5e933_55deg,#67e8f933_120deg,#2563eb33_160deg,transparent_360deg]',
-            'dark:before:bg-gradient-to-br dark:before:from-blue-700/0 dark:before:via-blue-700/0 dark:before:to-blue-700/30',
-            'dark:after:bg-radial dark:after:from-blue-700/40 dark:after:to-blue-700/0',
-            'tablet:py-16 tablet:before:h-[360px] tablet:before:translate-z-0',
+            `before:bg-radial after:bg-conic-from-b dark:after:bg-radial relative flex w-max items-center
+            justify-center pt-32 pb-24 before:absolute before:left-1/2 before:-ml-[400px] before:h-[300px]
+            before:w-[480px] before:transform-none before:rounded-full before:from-white before:to-white/0
+            before:blur-[45px] before:content-[""] after:absolute after:left-1/2 after:-z-[1] after:h-[180px]
+            after:w-60 after:blur-[45px] after:content-[""] after:translate-z-0
+            after:[--tw-gradient-stops:#38bdf833_0deg,#0ea5e933_55deg,#67e8f933_120deg,#2563eb33_160deg,transparent_360deg]
+            dark:before:bg-gradient-to-br dark:before:from-blue-700/0 dark:before:via-blue-700/0
+            dark:before:to-blue-700/30 dark:after:from-blue-700/40 dark:after:to-blue-700/0 tablet:py-16
+            tablet:before:h-[360px] tablet:before:translate-z-0`,
           )}
         >
           <Image
@@ -97,16 +93,16 @@ export default function Home() {
           />
           <div
             className={classNames(
-              'relative ml-4 flex h-[75px] w-[75px] items-center justify-center overflow-hidden rounded-xl px-2.5 py-[25px] shadow-[0_2px_8px_-1px_#0000001a] translate-z-0',
-              'before:absolute before:-z-[1] before:content-[""]',
-              'before:bg-conic-from-t before:h-[200%] before:w-[200%]',
-              'after:absolute after:-z-[1] after:content-[""]',
-              'after:inset-0 after:rounded-xl after:bg-gradient-to-br after:bg-clip-content after:p-px',
-              'before:[--tw-gradient-stops:#00000080,#00000040,#00000030,#00000020,#00000010,#00000010,#00000080]',
-              'after:from-slate-100 after:to-gray-200',
-              'dark:before:[--tw-gradient-stops:#ffffff80,#ffffff40,#ffffff30,#ffffff20,#ffffff10,#ffffff10,#ffffff80]',
-              'dark:after:from-slate-900 dark:after:to-black',
-              'motion-safe:before:animate-spin motion-safe:before:[animation-duration:6s] motion-safe:before:[animation-direction:reverse]',
+              `before:bg-conic-from-t relative ml-4 flex h-[75px] w-[75px] items-center justify-center
+              overflow-hidden rounded-xl px-2.5 py-[25px] shadow-[0_2px_8px_-1px_#0000001a] translate-z-0
+              before:absolute before:-z-[1] before:h-[200%] before:w-[200%] before:content-[""]
+              before:[--tw-gradient-stops:#00000080,#00000040,#00000030,#00000020,#00000010,#00000010,#00000080]
+              after:absolute after:inset-0 after:-z-[1] after:rounded-xl after:bg-gradient-to-br
+              after:from-slate-100 after:to-gray-200 after:bg-clip-content after:p-px after:content-[""]
+              motion-safe:before:animate-spin motion-safe:before:[animation-duration:6s]
+              motion-safe:before:[animation-direction:reverse]
+              dark:before:[--tw-gradient-stops:#ffffff80,#ffffff40,#ffffff30,#ffffff20,#ffffff10,#ffffff10,#ffffff80]
+              dark:after:from-slate-900 dark:after:to-black`,
             )}
           >
             <Image
@@ -122,9 +118,8 @@ export default function Home() {
 
         <div
           className={classNames(
-            'mb-[120px] grid w-[1100px] max-w-xs grid-cols-1 text-center',
-            'tablet:mb-0 tablet:max-w-full tablet:grid-cols-2 tablet:text-start',
-            'desktop:grid-cols-4',
+            `mb-[120px] grid w-[1100px] max-w-xs grid-cols-1 text-center tablet:mb-0 tablet:max-w-full
+            tablet:grid-cols-2 tablet:text-start desktop:grid-cols-4`,
           )}
         >
           <BoxLink
