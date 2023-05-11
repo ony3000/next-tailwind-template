@@ -1,12 +1,11 @@
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
-import { classNames } from '@/adaptors';
-import { pretendard } from '@/fonts';
+import { AppMain } from '@/components';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={classNames(pretendard.variable, 'font-sans')}>
+    <AppMain>
       <Component {...pageProps} />
-    </main>
+    </AppMain>
   );
 }
