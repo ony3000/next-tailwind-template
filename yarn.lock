@@ -4142,7 +4142,12 @@ prettier-plugin-brace-style@0.1.1:
   optionalDependencies:
     prettier-plugin-merge "~0.1.0"
 
-prettier-plugin-merge@0.1.0, prettier-plugin-merge@~0.1.0:
+prettier-plugin-merge@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-merge/-/prettier-plugin-merge-0.1.1.tgz#11f444acd610069510654c5cafd95b24c4689a66"
+  integrity sha512-5h+RQWjn4si+K06opGL2B8pf73A9syTyxLtkX8RaO/C2XcWtZdZAmaJ3a8LL20Gg/synkxWGLZrnxD8PYQGziQ==
+
+prettier-plugin-merge@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/prettier-plugin-merge/-/prettier-plugin-merge-0.1.0.tgz#39aa6b3b98d2b5ef99c271f997d070e0f36be892"
   integrity sha512-gTGV9hKqCOytzJvnyW/bQ1Qh8BVmbOvQYAmvbJ3Jvv1kaZ9LABxZh6jCCD4nN2L6Nb7/AR/pO2MWzYIYo3g7jQ==

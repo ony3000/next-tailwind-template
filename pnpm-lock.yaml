@@ -27,7 +27,7 @@ specifiers:
   postcss: 8.4.21
   prettier: 2.8.4
   prettier-plugin-brace-style: 0.1.1
-  prettier-plugin-merge: 0.1.0
+  prettier-plugin-merge: 0.1.1
   prettier-plugin-tailwindcss: 0.2.3
   react: 18.2.0
   react-dom: 18.2.0
@@ -63,7 +63,7 @@ dependencies:
   postcss: 8.4.21
   prettier: 2.8.4
   prettier-plugin-brace-style: 0.1.1_prettier@2.8.4
-  prettier-plugin-merge: 0.1.0_prettier@2.8.4
+  prettier-plugin-merge: 0.1.1_prettier@2.8.4
   prettier-plugin-tailwindcss: 0.2.3_zmkqdpv3ldc45e6wei6qtrbrca
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -4427,11 +4427,11 @@ packages:
     dependencies:
       prettier: 2.8.4
     optionalDependencies:
-      prettier-plugin-merge: 0.1.0_prettier@2.8.4
+      prettier-plugin-merge: 0.1.1_prettier@2.8.4
     dev: false
 
-  /prettier-plugin-merge/0.1.0_prettier@2.8.4:
-    resolution: {integrity: sha512-gTGV9hKqCOytzJvnyW/bQ1Qh8BVmbOvQYAmvbJ3Jvv1kaZ9LABxZh6jCCD4nN2L6Nb7/AR/pO2MWzYIYo3g7jQ==}
+  /prettier-plugin-merge/0.1.1_prettier@2.8.4:
+    resolution: {integrity: sha512-5h+RQWjn4si+K06opGL2B8pf73A9syTyxLtkX8RaO/C2XcWtZdZAmaJ3a8LL20Gg/synkxWGLZrnxD8PYQGziQ==}
     peerDependencies:
       prettier: ~2.8.4
     dependencies:
