@@ -1,4 +1,5 @@
 import Head from 'next/head';
+
 import { classNames } from '@/adaptors';
 import { BoxLink, Callout, NextByVercel } from '@/components';
 

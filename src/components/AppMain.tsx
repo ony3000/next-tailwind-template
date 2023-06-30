@@ -1,4 +1,5 @@
 import type { ComponentProps } from 'react';
+
 import { classNames } from '@/adaptors';
 import { pretendard } from '@/fonts';
 
