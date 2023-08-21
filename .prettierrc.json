@@ -7,6 +7,7 @@
     "@trivago/prettier-plugin-sort-imports",
     "prettier-plugin-tailwindcss",
     "prettier-plugin-brace-style",
+    "prettier-plugin-classnames",
     "prettier-plugin-merge"
   ],
   "importOrder": ["^(.*)\\.css$", "<THIRD_PARTY_MODULES>", "^@/(.*)$", "^\\.(.*)$"],
