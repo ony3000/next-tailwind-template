@@ -3,6 +3,7 @@ import { classNames } from '@/adaptors';
 describe('classNames adaptor', () => {
   it('Converts a multi-line class name using a template literal to a single-line class name.', () => {
     expect(
+      // prettier-ignore
       classNames(
         `first
         second
@@ -13,6 +14,7 @@ describe('classNames adaptor', () => {
 
   it('Converts a multi-line conditional class name using a template literal to a single-line class name.', () => {
     expect(
+      // prettier-ignore
       classNames({
         [`first
         second
