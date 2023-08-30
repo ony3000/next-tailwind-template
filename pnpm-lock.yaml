@@ -26,9 +26,9 @@ specifiers:
   next: 13.2.3
   postcss: 8.4.21
   prettier: 2.8.4
-  prettier-plugin-brace-style: 0.2.0
-  prettier-plugin-classnames: 0.1.0
-  prettier-plugin-merge: 0.1.1
+  prettier-plugin-brace-style: 0.2.1
+  prettier-plugin-classnames: 0.1.1
+  prettier-plugin-merge: 0.1.2
   prettier-plugin-tailwindcss: 0.2.3
   react: 18.2.0
   react-dom: 18.2.0
@@ -63,9 +63,9 @@ dependencies:
   next: 13.2.3_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.21
   prettier: 2.8.4
-  prettier-plugin-brace-style: 0.2.0_prettier@2.8.4
-  prettier-plugin-classnames: 0.1.0_prettier@2.8.4
-  prettier-plugin-merge: 0.1.1_prettier@2.8.4
+  prettier-plugin-brace-style: 0.2.1_prettier@2.8.4
+  prettier-plugin-classnames: 0.1.1_prettier@2.8.4
+  prettier-plugin-merge: 0.1.2_prettier@2.8.4
   prettier-plugin-tailwindcss: 0.2.3_zmkqdpv3ldc45e6wei6qtrbrca
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -4422,18 +4422,18 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: false
 
-  /prettier-plugin-brace-style/0.2.0_prettier@2.8.4:
-    resolution: {integrity: sha512-COUZqPRAHm6TRhIjYFKSawdsnZq+lqHMQfCDlhShHMpzEKWKCp/B8yxCygIKprymdc3MwlZjGvnVlhnG/iImbA==}
+  /prettier-plugin-brace-style/0.2.1_prettier@2.8.4:
+    resolution: {integrity: sha512-YuubZAJJnTjeXWbVcDdmXRV7jyOxF0nS/zPsT36Y0BgCd3Ya2rrWSQBUtTfD9KNc8k139K+CKVIgIYyXosnhNA==}
     peerDependencies:
       prettier: ~2.8.4
     dependencies:
       prettier: 2.8.4
     optionalDependencies:
-      prettier-plugin-merge: 0.1.1_prettier@2.8.4
+      prettier-plugin-merge: 0.1.2_prettier@2.8.4
     dev: false
 
-  /prettier-plugin-classnames/0.1.0_prettier@2.8.4:
-    resolution: {integrity: sha512-FX3F27J4NDbQ28d8JyP/bDtjIjfCIPSPSTMGR4JS0GwkyvDuTXvFT695c1dajHHXIf1U4D6ycCvxKjPdkkQF6w==}
+  /prettier-plugin-classnames/0.1.1_prettier@2.8.4:
+    resolution: {integrity: sha512-kA1Xp3YQEZJNJwrlu+PlbhNZk2DfzgE6I56C5IANh8eW/+Cmd+2RN2c5Qt1PiMEuw31CyWVTFTnzndFhm6rnmw==}
     peerDependencies:
       prettier: ~2.8.4
     dependencies:
@@ -4442,8 +4442,8 @@ packages:
       classnames: 2.3.2
     dev: false
 
-  /prettier-plugin-merge/0.1.1_prettier@2.8.4:
-    resolution: {integrity: sha512-5h+RQWjn4si+K06opGL2B8pf73A9syTyxLtkX8RaO/C2XcWtZdZAmaJ3a8LL20Gg/synkxWGLZrnxD8PYQGziQ==}
+  /prettier-plugin-merge/0.1.2_prettier@2.8.4:
+    resolution: {integrity: sha512-fXUGHRwIY1AwbFuiMhS+Kp4ELrXlbC171d3DpL3mlHfL8OP6rrlA5LLMmlaKsKfuK3CwTTfUAN9Tw89bii/qhQ==}
     peerDependencies:
       prettier: ~2.8.4
     dependencies:
