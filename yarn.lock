@@ -4135,24 +4135,24 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==
 
-prettier-plugin-brace-style@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-brace-style/-/prettier-plugin-brace-style-0.2.0.tgz#ff2c67d40fe0b8f246bd8657a6c085402ee84e56"
-  integrity sha512-COUZqPRAHm6TRhIjYFKSawdsnZq+lqHMQfCDlhShHMpzEKWKCp/B8yxCygIKprymdc3MwlZjGvnVlhnG/iImbA==
+prettier-plugin-brace-style@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-brace-style/-/prettier-plugin-brace-style-0.2.1.tgz#086f08c94021be6fa7e60f0f262a43218edfca93"
+  integrity sha512-YuubZAJJnTjeXWbVcDdmXRV7jyOxF0nS/zPsT36Y0BgCd3Ya2rrWSQBUtTfD9KNc8k139K+CKVIgIYyXosnhNA==
   optionalDependencies:
     prettier-plugin-merge "~0.1.0"
 
-prettier-plugin-classnames@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-classnames/-/prettier-plugin-classnames-0.1.0.tgz#3689b083aee89f5f8794ca20d98a247a19c37fe6"
-  integrity sha512-FX3F27J4NDbQ28d8JyP/bDtjIjfCIPSPSTMGR4JS0GwkyvDuTXvFT695c1dajHHXIf1U4D6ycCvxKjPdkkQF6w==
+prettier-plugin-classnames@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-classnames/-/prettier-plugin-classnames-0.1.1.tgz#9993b3f1f7334586c384f276f8950a96f916e706"
+  integrity sha512-kA1Xp3YQEZJNJwrlu+PlbhNZk2DfzgE6I56C5IANh8eW/+Cmd+2RN2c5Qt1PiMEuw31CyWVTFTnzndFhm6rnmw==
   optionalDependencies:
     classnames "2.3.2"
 
-prettier-plugin-merge@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-merge/-/prettier-plugin-merge-0.1.1.tgz#11f444acd610069510654c5cafd95b24c4689a66"
-  integrity sha512-5h+RQWjn4si+K06opGL2B8pf73A9syTyxLtkX8RaO/C2XcWtZdZAmaJ3a8LL20Gg/synkxWGLZrnxD8PYQGziQ==
+prettier-plugin-merge@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-merge/-/prettier-plugin-merge-0.1.2.tgz#891eb3ae72cbedb4f638e4140d234eb3cd7e53c3"
+  integrity sha512-fXUGHRwIY1AwbFuiMhS+Kp4ELrXlbC171d3DpL3mlHfL8OP6rrlA5LLMmlaKsKfuK3CwTTfUAN9Tw89bii/qhQ==
 
 prettier-plugin-merge@~0.1.0:
   version "0.1.0"
