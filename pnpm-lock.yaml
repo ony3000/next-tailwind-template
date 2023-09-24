@@ -26,9 +26,9 @@ specifiers:
   next: 13.2.3
   postcss: 8.4.21
   prettier: 2.8.4
-  prettier-plugin-brace-style: 0.2.1
-  prettier-plugin-classnames: 0.1.1
-  prettier-plugin-merge: 0.1.2
+  prettier-plugin-brace-style: 0.3.0
+  prettier-plugin-classnames: 0.2.0
+  prettier-plugin-merge: 0.2.1
   prettier-plugin-tailwindcss: 0.2.3
   react: 18.2.0
   react-dom: 18.2.0
@@ -63,9 +63,9 @@ dependencies:
   next: 13.2.3_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.21
   prettier: 2.8.4
-  prettier-plugin-brace-style: 0.2.1_prettier@2.8.4
-  prettier-plugin-classnames: 0.1.1_prettier@2.8.4
-  prettier-plugin-merge: 0.1.2_prettier@2.8.4
+  prettier-plugin-brace-style: 0.3.0_prettier@2.8.4
+  prettier-plugin-classnames: 0.2.0_prettier@2.8.4
+  prettier-plugin-merge: 0.2.1_prettier@2.8.4
   prettier-plugin-tailwindcss: 0.2.3_zmkqdpv3ldc45e6wei6qtrbrca
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -949,6 +949,14 @@ packages:
       picocolors: 1.0.0
       tiny-glob: 0.2.9
       tslib: 2.5.0
+    dev: false
+
+  /@prettier/sync/0.3.0_prettier@2.8.4:
+    resolution: {integrity: sha512-3dcmCyAxIcxy036h1I7MQU/uEEBq8oLwf1CE3xeze+MPlgkdlb/+w6rGR/1dhp6Hqi17fRS6nvwnOzkESxEkOw==}
+    peerDependencies:
+      prettier: ^3.0.0
+    dependencies:
+      prettier: 2.8.4
     dev: false
 
   /@rushstack/eslint-patch/1.2.0:
@@ -1967,6 +1975,11 @@ packages:
   /diff-sequences/29.4.3:
     resolution: {integrity: sha512-ofrBgwpPhCD85kMKtE9RYFFq6OC1A89oW2vvgWZNCwxrUpRUILopY7lsYyMDSjc8g6U6aiO0Qubg6r4Wgt5ZnA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    dev: false
+
+  /diff/5.1.0:
+    resolution: {integrity: sha512-D+mk+qE8VC/PAUrlAU34N+VfXev0ghe5ywmpqrawphmVZc1bEfn56uo9qpyGp1p4xpzOHkSW4ztBd6L7Xx4ACw==}
+    engines: {node: '>=0.3.1'}
     dev: false
 
   /dir-glob/3.0.1:
@@ -4422,31 +4435,35 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: false
 
-  /prettier-plugin-brace-style/0.2.1_prettier@2.8.4:
-    resolution: {integrity: sha512-YuubZAJJnTjeXWbVcDdmXRV7jyOxF0nS/zPsT36Y0BgCd3Ya2rrWSQBUtTfD9KNc8k139K+CKVIgIYyXosnhNA==}
+  /prettier-plugin-brace-style/0.3.0_prettier@2.8.4:
+    resolution: {integrity: sha512-C/i7hBjJ0n9JJzd28cKAIl6v7kX8rrlqB/UQ4Qv6frDkZcZqvRmVzEely8xWSaFScyfRBhY85cbqQZ8kVLY4qw==}
     peerDependencies:
-      prettier: ~2.8.4
+      prettier: ~2.8.4 || ~3.0.3
     dependencies:
+      '@prettier/sync': 0.3.0_prettier@2.8.4
       prettier: 2.8.4
     optionalDependencies:
-      prettier-plugin-merge: 0.1.2_prettier@2.8.4
+      prettier-plugin-merge: 0.2.1_prettier@2.8.4
     dev: false
 
-  /prettier-plugin-classnames/0.1.1_prettier@2.8.4:
-    resolution: {integrity: sha512-kA1Xp3YQEZJNJwrlu+PlbhNZk2DfzgE6I56C5IANh8eW/+Cmd+2RN2c5Qt1PiMEuw31CyWVTFTnzndFhm6rnmw==}
+  /prettier-plugin-classnames/0.2.0_prettier@2.8.4:
+    resolution: {integrity: sha512-OYJay+5BT/P5pO95AIrBrLM2mBjqJv3NYJFhYAo22hhpOaIIq4BYRLHHlyEYkKlZuDbi84kRwMRE6qpYWmieWQ==}
     peerDependencies:
-      prettier: ~2.8.4
+      prettier: ~2.8.4 || ~3.0.3
     dependencies:
+      '@prettier/sync': 0.3.0_prettier@2.8.4
       prettier: 2.8.4
     optionalDependencies:
       classnames: 2.3.2
+      prettier-plugin-merge: 0.2.1_prettier@2.8.4
     dev: false
 
-  /prettier-plugin-merge/0.1.2_prettier@2.8.4:
-    resolution: {integrity: sha512-fXUGHRwIY1AwbFuiMhS+Kp4ELrXlbC171d3DpL3mlHfL8OP6rrlA5LLMmlaKsKfuK3CwTTfUAN9Tw89bii/qhQ==}
+  /prettier-plugin-merge/0.2.1_prettier@2.8.4:
+    resolution: {integrity: sha512-5GDMWUsWTDG/NaJE0H5TsNZWK6kT/k0IdEiY89Twh+PgBefFtRQDqqLqAo5fNVDLSQtsQLtnJD5CUyggUY7r/w==}
     peerDependencies:
       prettier: ~2.8.4
     dependencies:
+      diff: 5.1.0
       prettier: 2.8.4
     dev: false
 

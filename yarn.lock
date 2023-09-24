@@ -844,6 +844,11 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
+"@prettier/sync@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@prettier/sync/-/sync-0.3.0.tgz#91f2cfc23490a21586d1cf89c6f72157c000ca1e"
+  integrity sha512-3dcmCyAxIcxy036h1I7MQU/uEEBq8oLwf1CE3xeze+MPlgkdlb/+w6rGR/1dhp6Hqi17fRS6nvwnOzkESxEkOw==
+
 "@rushstack/eslint-patch@^1.1.3":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
@@ -1887,6 +1892,11 @@ diff-sequences@^29.4.3:
   version "29.4.3"
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-29.4.3.tgz#9314bc1fabe09267ffeca9cbafc457d8499a13f2"
   integrity sha512-ofrBgwpPhCD85kMKtE9RYFFq6OC1A89oW2vvgWZNCwxrUpRUILopY7lsYyMDSjc8g6U6aiO0Qubg6r4Wgt5ZnA==
+
+diff@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-5.1.0.tgz#bc52d298c5ea8df9194800224445ed43ffc87e40"
+  integrity sha512-D+mk+qE8VC/PAUrlAU34N+VfXev0ghe5ywmpqrawphmVZc1bEfn56uo9qpyGp1p4xpzOHkSW4ztBd6L7Xx4ACw==
 
 dir-glob@^3.0.1:
   version "3.0.1"
@@ -4135,29 +4145,31 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==
 
-prettier-plugin-brace-style@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-brace-style/-/prettier-plugin-brace-style-0.2.1.tgz#086f08c94021be6fa7e60f0f262a43218edfca93"
-  integrity sha512-YuubZAJJnTjeXWbVcDdmXRV7jyOxF0nS/zPsT36Y0BgCd3Ya2rrWSQBUtTfD9KNc8k139K+CKVIgIYyXosnhNA==
+prettier-plugin-brace-style@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-brace-style/-/prettier-plugin-brace-style-0.3.0.tgz#e6a3e44a8616e25bceec39244ee457fa5cff405e"
+  integrity sha512-C/i7hBjJ0n9JJzd28cKAIl6v7kX8rrlqB/UQ4Qv6frDkZcZqvRmVzEely8xWSaFScyfRBhY85cbqQZ8kVLY4qw==
+  dependencies:
+    "@prettier/sync" "0.3.0"
   optionalDependencies:
-    prettier-plugin-merge "~0.1.0"
+    prettier-plugin-merge "~0.2.0"
 
-prettier-plugin-classnames@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-classnames/-/prettier-plugin-classnames-0.1.1.tgz#9993b3f1f7334586c384f276f8950a96f916e706"
-  integrity sha512-kA1Xp3YQEZJNJwrlu+PlbhNZk2DfzgE6I56C5IANh8eW/+Cmd+2RN2c5Qt1PiMEuw31CyWVTFTnzndFhm6rnmw==
+prettier-plugin-classnames@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-classnames/-/prettier-plugin-classnames-0.2.0.tgz#5819c318c788f88f9e247db8b1c9c843bfe060d7"
+  integrity sha512-OYJay+5BT/P5pO95AIrBrLM2mBjqJv3NYJFhYAo22hhpOaIIq4BYRLHHlyEYkKlZuDbi84kRwMRE6qpYWmieWQ==
+  dependencies:
+    "@prettier/sync" "0.3.0"
   optionalDependencies:
     classnames "2.3.2"
+    prettier-plugin-merge "~0.2.0"
 
-prettier-plugin-merge@0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-merge/-/prettier-plugin-merge-0.1.2.tgz#891eb3ae72cbedb4f638e4140d234eb3cd7e53c3"
-  integrity sha512-fXUGHRwIY1AwbFuiMhS+Kp4ELrXlbC171d3DpL3mlHfL8OP6rrlA5LLMmlaKsKfuK3CwTTfUAN9Tw89bii/qhQ==
-
-prettier-plugin-merge@~0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-merge/-/prettier-plugin-merge-0.1.0.tgz#39aa6b3b98d2b5ef99c271f997d070e0f36be892"
-  integrity sha512-gTGV9hKqCOytzJvnyW/bQ1Qh8BVmbOvQYAmvbJ3Jvv1kaZ9LABxZh6jCCD4nN2L6Nb7/AR/pO2MWzYIYo3g7jQ==
+prettier-plugin-merge@0.2.1, prettier-plugin-merge@~0.2.0:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-merge/-/prettier-plugin-merge-0.2.1.tgz#979443f0c9d96a2096c5994ab014fc2677a4dc5e"
+  integrity sha512-5GDMWUsWTDG/NaJE0H5TsNZWK6kT/k0IdEiY89Twh+PgBefFtRQDqqLqAo5fNVDLSQtsQLtnJD5CUyggUY7r/w==
+  dependencies:
+    diff "5.1.0"
 
 prettier-plugin-tailwindcss@0.2.3:
   version "0.2.3"
