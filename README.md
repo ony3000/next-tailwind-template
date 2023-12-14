@@ -6,7 +6,7 @@ First, you need to decide which package manager to use for this project. You hav
 
 - npm
 - [yarn classic](https://classic.yarnpkg.com/)
-- [pnpm v7](https://pnpm.io/)
+- [pnpm 8.5.1](https://pnpm.io/)
 
 This project contains the lockfiles of each package manager, so before installing the package, remove unused package manager lockfiles.
 
