@@ -1,30 +1,30 @@
 module.exports = {
-  "extends": [
-    "next/core-web-vitals",
-    "airbnb",
-    "airbnb-typescript",
-    "airbnb/hooks",
-    "plugin:react/jsx-runtime",
-    "prettier"
+  extends: [
+    'next/core-web-vitals',
+    'airbnb',
+    'airbnb-typescript',
+    'airbnb/hooks',
+    'plugin:react/jsx-runtime',
+    'prettier',
   ],
-  "parserOptions": {
-    "project": "./tsconfig.json"
+  parserOptions: {
+    project: './tsconfig.json',
   },
-  "rules": {
-    "@typescript-eslint/consistent-type-imports": 2,
-    "import/prefer-default-export": 0,
-    "react/jsx-props-no-spreading": 0,
-    "react/require-default-props": [
+  rules: {
+    '@typescript-eslint/consistent-type-imports': 2,
+    'import/prefer-default-export': 0,
+    'react/jsx-props-no-spreading': 0,
+    'react/require-default-props': [
       2,
       {
-        "functions": "defaultArguments"
-      }
+        functions: 'defaultArguments',
+      },
     ],
-    "react-hooks/exhaustive-deps": [
+    'react-hooks/exhaustive-deps': [
       2,
       {
-        "additionalHooks": "(useRecoilCallback|useRecoilTransaction_UNSTABLE)"
-      }
-    ]
-  }
-}
+        additionalHooks: '(useRecoilCallback|useRecoilTransaction_UNSTABLE)',
+      },
+    ],
+  },
+};
