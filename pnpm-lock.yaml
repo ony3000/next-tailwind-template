@@ -80,8 +80,8 @@ dependencies:
     specifier: 0.5.0
     version: 0.5.0(prettier@2.8.4)
   prettier-plugin-classnames:
-    specifier: 0.4.0
-    version: 0.4.0(prettier@2.8.4)
+    specifier: 0.5.2
+    version: 0.5.2(prettier@2.8.4)
   prettier-plugin-merge:
     specifier: 0.5.1
     version: 0.5.1(prettier@2.8.4)
@@ -4424,8 +4424,8 @@ packages:
       prettier: 2.8.4
     dev: false
 
-  /prettier-plugin-classnames@0.4.0(prettier@2.8.4):
-    resolution: {integrity: sha512-S8dvBpjjJrM5W9zP946KqixWZc1+wo18TGQYzN/bAsj7y+0LmJXwblLOzriz6dwkr1ZGJ+ZNChnEXionu8rr7Q==}
+  /prettier-plugin-classnames@0.5.2(prettier@2.8.4):
+    resolution: {integrity: sha512-SOofg8sE4S1GI8aoZ+kBttI1GxYmCoMpuwoTXKolU509fJo5AXp2EyzF06DgEFcv2C+tqSg2WtWkSQKPmBWa6Q==}
     engines: {node: '>=14'}
     peerDependencies:
       prettier: ^2 || ^3
