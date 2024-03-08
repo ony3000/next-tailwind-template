@@ -1,5 +1,4 @@
 {
-  "printWidth": 100,
   "singleQuote": true,
   "trailingComma": "all",
   "singleAttributePerLine": true,
@@ -12,5 +11,6 @@
   ],
   "importOrder": ["^(.*)\\.css$", "<THIRD_PARTY_MODULES>", "^@/(.*)$", "^\\.(.*)$"],
   "importOrderSeparation": true,
+  "endingPosition": "absolute-with-indent",
   "braceStyle": "stroustrup"
 }
