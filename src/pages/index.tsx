@@ -20,16 +20,23 @@ export default function Home() {
           href="/favicon.ico"
         />
       </Head>
-      <div className="flex min-h-screen flex-col gap-8 px-5 py-8 sm:gap-16 sm:px-12 sm:py-16 lg:gap-24 lg:px-20 lg:py-24">
+      <div
+        className="flex min-h-screen flex-col gap-8 px-5 py-8 sm:gap-16
+          sm:px-12 sm:py-16 lg:gap-24 lg:px-20 lg:py-24"
+      >
         <NextByVercel />
 
         <div className="flex justify-center font-mono text-[14px]">
           <Callout>
-            Get started by editing <code className="font-bold">src/pages/index.tsx</code>
+            Get started by editing{' '}
+            <code className="font-bold">src/pages/index.tsx</code>
           </Callout>
         </div>
 
-        <div className="mx-auto grid max-w-[1100px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <div
+          className="mx-auto grid max-w-[1100px] grid-cols-1 sm:grid-cols-2
+            lg:grid-cols-4"
+        >
           <BoxLink
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             title="Docs"
