@@ -16,6 +16,7 @@
     "@biomejs/biome": "1.8.0",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "14.0.0",
+    "@thedutchcoder/postcss-rem-to-px": "0.0.2",
     "@trivago/prettier-plugin-sort-imports": "4.2.1",
     "@types/node": "18.14.2",
     "@types/react": "18.0.28",
