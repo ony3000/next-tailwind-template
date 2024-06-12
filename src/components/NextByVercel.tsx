@@ -35,7 +35,7 @@ export default function NextByVercel() {
             alt="Vercel Logo"
             className="dark:invert"
             width={100}
-            height={24}
+            height={23}
             priority
           />
         </a>
