@@ -9,7 +9,7 @@ module.exports = {
         sans: ['var(--font-pretendard)', ...fontFamily.sans],
       },
       screens: {
-        'non-touch-device': { raw: '(hover: hover) and (pointer: fine)' },
+        'non-touchscreen': { raw: '(hover: hover) and (pointer: fine)' },
       },
     },
   },
