@@ -1,4 +1,5 @@
 const { fontFamily } = require('tailwindcss/defaultTheme');
+const plugin = require('tailwindcss/plugin');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -8,10 +9,14 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-pretendard)', ...fontFamily.sans],
       },
-      screens: {
-        'non-touchscreen': { raw: '(hover: hover) and (pointer: fine)' },
-      },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(({ addVariant }) => {
+      addVariant(
+        'non-touchscreen',
+        '@media (hover: hover) and (pointer: fine)',
+      );
+    }),
+  ],
 };
