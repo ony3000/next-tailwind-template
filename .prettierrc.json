@@ -17,5 +17,6 @@
   ],
   "importOrderSeparation": true,
   "endingPosition": "absolute-with-indent",
+  "experimentalOptimization": true,
   "braceStyle": "stroustrup"
 }
