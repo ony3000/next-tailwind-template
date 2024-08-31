@@ -10,7 +10,6 @@
     "enabled": true,
     "rules": {
       "recommended": true
-    },
-    "ignore": [".next/**"]
+    }
   }
 }
