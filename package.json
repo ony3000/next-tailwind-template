@@ -13,6 +13,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "4.0.11",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "14.0.0",
     "@thedutchcoder/postcss-rem-to-px": "0.0.2",
@@ -23,7 +24,6 @@
     "@types/testing-library__jest-dom": "5.14.5",
     "@typescript-eslint/eslint-plugin": "5.54.0",
     "@typescript-eslint/parser": "5.54.0",
-    "autoprefixer": "10.4.13",
     "classnames": "2.3.2",
     "eslint": "8.35.0",
     "eslint-config-airbnb": "19.0.4",
@@ -42,12 +42,12 @@
     "prettier-plugin-brace-style": "0.7.1",
     "prettier-plugin-classnames": "0.7.5",
     "prettier-plugin-merge": "0.7.2",
-    "prettier-plugin-tailwindcss": "0.5.14",
+    "prettier-plugin-tailwindcss": "0.6.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "recoil": "0.7.7",
     "rimraf": "5.0.1",
-    "tailwindcss": "3.4.4",
+    "tailwindcss": "4.0.11",
     "typescript": "4.9.5"
   },
   "packageManager": "pnpm@8.6.2"

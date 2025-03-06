@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: var(--font-pretendard), ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@custom-variant non-touchscreen {
+  @media (hover: hover) and (pointer: fine) {
+    @slot;
+  }
+}
 
 @layer base {
   html,

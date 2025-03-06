@@ -1,7 +1,6 @@
 module.exports = {
   plugins: {
-    tailwindcss: {},
+    '@tailwindcss/postcss': {},
     '@thedutchcoder/postcss-rem-to-px': {},
-    autoprefixer: {},
   },
 };
