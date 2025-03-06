@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+@theme {
+  --spacing: 4px;
+}
+
 @theme inline {
   --font-sans: var(--font-pretendard), ui-sans-serif, system-ui, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
