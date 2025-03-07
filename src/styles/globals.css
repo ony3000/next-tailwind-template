@@ -9,9 +9,11 @@
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-@custom-variant non-touchscreen {
+@custom-variant non-touchscreen-hover {
   @media (hover: hover) and (pointer: fine) {
-    @slot;
+    &:hover {
+      @slot;
+    }
   }
 }
 
