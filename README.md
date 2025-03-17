@@ -2,8 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Required Environment
 
-- Node.js 18
-- [pnpm 8.5.1](https://pnpm.io/)
+- Node.js 20
+- [pnpm 10.6.3](https://pnpm.io/)
 
 After installing the package, run the development server:
 
