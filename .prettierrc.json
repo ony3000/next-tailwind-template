@@ -16,7 +16,6 @@
     "^\\.(.*)$"
   ],
   "importOrderSeparation": true,
-  "endingPosition": "absolute-with-indent",
-  "experimentalOptimization": true,
+  "endingPosition": "absolute",
   "braceStyle": "stroustrup"
 }
